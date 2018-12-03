@@ -1,5 +1,5 @@
 {
-    "name": "setsunaMC/flarum-ext-japanese",
+    "name": "n04h/flarum-ext-japanese",
     "description": "Flarum language package for Japanese.",
     "type": "flarum-extension",
     "keywords": ["locale","flarum"],
