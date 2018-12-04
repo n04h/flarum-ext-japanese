@@ -1,0 +1,15 @@
+flarum-statistics:
+
+  admin:
+
+    statistics:
+    
+      total_label: 合計
+      todays_label: 今日
+      last_7_days_label: 過去1週間
+      last_28_days_label: 過去1ヶ月
+      last_12_months_label: 過去1年間
+      users_heading: ユーザー数
+      discussions_heading: スレッド数
+      posts_heading: 投稿数
+      
