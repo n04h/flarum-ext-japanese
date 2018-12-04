@@ -1,0 +1,7 @@
+flarum-markdown:
+
+  forum:
+
+    composer:
+      header_tooltip: aaaaa
+      bold_tooltip: aaaaa

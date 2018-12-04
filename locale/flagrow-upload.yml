@@ -65,3 +65,8 @@ flagrow-upload:
       disable-hotlink-protection: "ホットリンクの保護により、他のサイトからのダウンロードを開始できなくなります。 現在の方法では、csrfトークンとポストIDが必要です。"
       disable-download-logging: "あなたのフォーラムのユーザーが行ったすべてのダウンロードのログを無効にする。 この機能を有効にすると、近くのダウンロード数や他のメトリックを表示することができます。"
       description: "アップロードサービスの設定します。"
+
+    forum:
+      
+      buttons:
+        attach: aaaaaa
