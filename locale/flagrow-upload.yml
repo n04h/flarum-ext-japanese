@@ -1,0 +1,66 @@
+flagrow-upload:
+
+  admin:
+
+    button:
+      save: 設定を保存
+
+    permissions:
+      download_label: ダウンロードファイル
+      upload_label: アップロードファイル
+
+    labels:
+      preferences:
+        title: 一般的な設定
+        max_file_size: "最大ファイルサイズ（kb）"
+        mime_types: "MIMEタイプを設定し、アダプタのマッピングをアップロードします"
+
+      resize:
+        title: 画像のサイズ変更
+        toggle: 画像のサイズ変更
+        max_width: 最大画像幅
+
+      watermark:
+        title: 透かし画像
+        toggle: 透かし画像
+        file: 透かし画像をアップロードする
+        position: 透かし画像の位置
+
+      disable-hotlink-protection:
+        title: ホットリンク保護の無効化
+        toggle: 無効化
+
+      disable-download-logging:
+        title: ダウンロードログの無効化
+        toggle: 無効化
+
+      local:
+        title: ローカルストレージ設定
+        cdn_url: コンテンツ配信URL（接頭辞ファイル）
+
+      imgur:
+        title: Imgur画像保存設定
+        client_id: ImgurクライアントID
+
+      aws-s3:
+        title: "AWS S3 ストレージ設定"
+        key: Key
+        secret: Secret
+        bucket: Bucket
+        region: Region
+
+      ovh-svfs:
+        title: "OVH SVFS ストレージ設定"
+        container: Container
+        tenantid: Tenant ID
+        username: Username
+        password: Password
+        region: Region
+
+    help_texts:
+      mime_types: "ここであなたのマッピングを設定してください。 各MIMEタイプの正規表現は、特定のアップロードアダプターとダウンロードテンプレートによって処理されます。"
+      download_templates: "ダウンロードテンプレートとは、プレビュー、ボタンなど、フォーラムでアップロードがどのように表示されるかです。 現在利用可能なもの："
+      resize: "アップロードする前に画像のサイズを変更するかどうかを選択します。 最大幅と高さをピクセル単位で選択できます。 サイズ変更プロセスは、画像の縦横比を保持します。"
+      watermark: "アップロード時に画像に透かし画像が追加されるかどうかを選択します。 下の設定に基づいて、非GIFに透かし画像が追加されます。"
+      disable-hotlink-protection: "ホットリンクの保護により、他のサイトからのダウンロードを開始できなくなります。 現在の方法では、csrfトークンとポストIDが必要です。"
+      disable-download-logging: "あなたのフォーラムのユーザーが行ったすべてのダウンロードのログを無効にする。 この機能を有効にすると、近くのダウンロード数や他のメトリックを表示することができます。"
