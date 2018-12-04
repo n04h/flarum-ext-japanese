@@ -1,0 +1,25 @@
+flagrow-ads:
+
+  admin:
+
+    settings:
+    
+      start-from-post: 広告を表示する投稿を指定
+      between-n-posts: 広告を配置する投稿数を指定
+    
+    positions:
+
+      under-header:
+        title: ナビゲーションヘッダーの広告の位置
+        placeholder: 広告コードをここに挿入
+
+      between-posts:
+        title: 投稿間の広告位置
+        placeholder: 広告コードをここに挿入
+
+      under-nav-items:
+        title: フロントページのタグの下の左の列の広告の位置
+        placeholder: 広告コードをここに挿入
+
+    tab:
+      description: "広告の設定をします。"
