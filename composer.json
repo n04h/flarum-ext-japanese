@@ -1,6 +1,6 @@
 {
     "name": "n04h/flarum-ext-japanese",
-    "description": "Flarum language package for Japanese.",
+    "description": "Japanese language pack.",
     "type": "flarum-extension",
     "keywords": ["locale","flarum"],
     "require": {
@@ -18,10 +18,10 @@
         "source": "https://github.com/setsunaMC/flarum-ext-japanese"
     },
     "extra": {
-	"branch-alias": {
+        "branch-alias": {
             "dev-master": "0.1.x-dev"
         },
-	"flarum-extension": {
+        "flarum-extension": {
             "title": "Japanese",
             "icon": {
                 "image": "icon.svg",

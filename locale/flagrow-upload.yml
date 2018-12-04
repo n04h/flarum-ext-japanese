@@ -2,7 +2,7 @@ flagrow-upload:
 
   admin:
 
-    button:
+    buttons:
       save: 設定を保存
 
     permissions:
@@ -64,3 +64,4 @@ flagrow-upload:
       watermark: "アップロード時に画像に透かし画像が追加されるかどうかを選択します。 下の設定に基づいて、非GIFに透かし画像が追加されます。"
       disable-hotlink-protection: "ホットリンクの保護により、他のサイトからのダウンロードを開始できなくなります。 現在の方法では、csrfトークンとポストIDが必要です。"
       disable-download-logging: "あなたのフォーラムのユーザーが行ったすべてのダウンロードのログを無効にする。 この機能を有効にすると、近くのダウンロード数や他のメトリックを表示することができます。"
+      description: "アップロードサービスの設定します。"

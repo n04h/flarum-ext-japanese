@@ -9,6 +9,7 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
+      title: 拡張機能を追加
       developer_text: "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。"
       install_text: "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。"
       temporary_text: "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！"
@@ -34,6 +35,7 @@ core:
       custom_footer_heading: カスタムフッター
       custom_footer_text: ページの一番下に表示するHTMLを追加します。
       custom_footer_button: カスタムフッターを編集
+      edit_footer_button: カスタムフッターを編集
 
     # These translations are used in the Basics page.
     basics:
@@ -60,7 +62,7 @@ core:
       troubleshooting_text: "何か問題が発生しましたか？ <a>トラブルシューティング ドキュメント</a>の手順に従ってください。"
       version_text: "Flarumをお試しいただきありがとうございます！ バージョン {version} をご利用です。"
       welcome_text: "Flarum Betaへようこそ!"
-      tool_button: "ツール"
+      tools_button: "ツール"
       clear_cache_button: "キャッシュをクリア"
 
     # These translations are used in the Edit Custom CSS modal dialog.
