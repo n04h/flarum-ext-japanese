@@ -19,3 +19,11 @@ composer remove n04h/flarum-ext-japanese
 Copyright (c) 2018 [N04h](https://n04h.jp/): [Github](https://github.com/setsunaMC)  
 Based on original work (c) 2016 [Yuji Nagaoka](https://github.com/naga0ka/flarum-ext-japanese)  
 Released under the MIT license
+
+## Special Thanks
+
+- [Supicha](https://twitter.com/Supichx)
+
+## Contact
+
+- Twitter[@Noah_stn](https://twitter.com/Noah_stn)
