@@ -72,7 +72,7 @@ flarum-tags:
       edit_tags_button: タグを編集
       
     header:
-      back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: タグのリストに戻る
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
