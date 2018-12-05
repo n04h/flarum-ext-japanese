@@ -70,6 +70,9 @@ flarum-tags:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       edit_tags_button: タグを編集
+      
+    header:
+      back_to_tags_tooltip: Back to Tag List
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
