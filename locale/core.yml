@@ -9,33 +9,32 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      title: 拡張機能を追加
       developer_text: "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。"
       install_text: "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。"
       temporary_text: "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！"
+      title: 拡張機能を追加
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: カラーヘッダー
       colors_heading: カラー
-      colors_text: "二つの色をあなたのフォーラムのテーマに合わせて設定できます。一つ目はハイライトされて全面的に押し出される色、二つ目はバックグラウンドとして使われる色です。"
+      colors_text: "二つの色をあなたのフォーラムのテーマに合わせて設定できます。一つ目はハイライトされて全面的に押し出される色、二つ目はバックグラウンドとして使われる色です。" 
+      custom_footer_heading: カスタムフッター
+      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: カスタムヘッダー
-      custom_header_text: "Flarumのヘッダーの上、つまりページの一番上に表示するHTMLを追加します。"
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: カスタムスタイル
       custom_styles_text: Flarumのデフォルトスタイルの上に適用する独自のLESS / CSSコードを追加して、フォーラムの外観をカスタマイズします。
       dark_mode_label: ダークモード
       edit_css_button: カスタムCSSを編集
-      edit_header_button: カスタムヘッダーを編集
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: 16進数のカラーコードを入力します（例：#ff0000）
       favicon_heading: ファビコン
       favicon_text: ショートカットアイコン用の画像をアップロード
       logo_heading: ロゴ
       logo_text: タイトル用の画像をアップロード
       submit_button: => core.ref.save_changes
-      custom_footer_heading: カスタムフッター
-      custom_footer_text: ページの一番下に表示するHTMLを追加します。
-      custom_footer_button: カスタムフッターを編集
-      edit_footer_button: カスタムフッターを編集
 
     # These translations are used in the Basics page.
     basics:
@@ -47,23 +46,15 @@ core:
       home_page_heading: トップページ
       home_page_text: "ユーザーがあなたのフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに関連するパスを使用します。"
       saved_message: 変更が保存されました.
+      show_language_selector_label: "言語選択を表示する"
       submit_button: => core.ref.save_changes
       welcome_banner_heading: ウェルカムバナー
       welcome_banner_text: フォーラムにやってきたユーザーにウェルカムを表示しましょう。全てのスレッドのページにこの文が出力されます。
-      show_language_selector_label: "言語選択を表示する"
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "本ソフトウェアはもともと<strong>ベータ版</strong>として提供されているものであり、ソフトウェアのテストと改良へのご協力をお願いしています。本番環境では使用するべきではありません"
-      contributing_text: "バグ探し・開発の協力をしたいですか？ <a>編集ドキュメント</a>をお読みください。"
-      extension_text: "拡張機能の開発に興味をお持ちですか？ <a>拡張機能ドキュメント</a>をお読みください。"
-      features_text: "機能の改良のアイデアをお持ちですか？ <a>Featuresタグ</a>をつけてご連絡ください。"
-      support_text: "バグを発見しましたか？ 私たちのフォーラムに、<a>Supportタグ</a>をつけてご報告ください。"
-      troubleshooting_text: "何か問題が発生しましたか？ <a>トラブルシューティング ドキュメント</a>の手順に従ってください。"
-      version_text: "Flarumをお試しいただきありがとうございます！ バージョン {version} をご利用です。"
-      welcome_text: "Flarum Betaへようこそ!"
-      tools_button: "ツール"
       clear_cache_button: "キャッシュをクリア"
+      tools_button: "ツール"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -71,9 +62,15 @@ core:
       submit_button: => core.ref.save_changes
       title: カスタムCSSを編集
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: カラー
+      color_label: => core.ref.color
       delete_button: グループを削除
       delete_confirmation: "本当にこのグループを削除してもよろしいですか？グループに登録されているユーザーは削除されません。"
       icon_label: アイコン
@@ -86,19 +83,15 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Flarumのヘッダーの上、つまりページの一番上に表示するHTMLを追加します。"
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: カスタムヘッダーを編集
-
-    edit_footer:
-      customize_text: "ページの一番下に表示するHTMLを追加します。"
-      title: カスタムフッターを編集
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTPアカウント
       addresses_heading: メールアドレス
-      driver_label: Driver("SMTP"推奨)
+      driver_label: Driver(初期設定"mail")
       encryption_label: 暗号化方式(SSL/TLS)
       from_label: 送信元名
       heading: => core.ref.email
@@ -147,6 +140,8 @@ core:
       delete_discussions_forever_label: スレッドを完全に削除
       delete_discussions_label: スレッドを削除
       delete_posts_forever_label: 投稿を完全に削除
+      delete_posts_label: 投稿を削除
+      edit_posts_label: 投稿を編集
       edit_and_delete_posts_label: 投稿の編集・削除
       global_heading: 全体
       moderate_heading: モデレート
@@ -158,11 +153,9 @@ core:
       sign_up_label: サインアップ
       start_discussions_label: 新規スレッド
       view_discussions_label: スレッドを閲覧
+      view_last_seen_at_label: ユーザーの最後に見た時間の閲覧
       view_post_ips_label: 投稿のIPアドレスの表示
       view_user_list_label: ユーザーリストを閲覧
-      view_last_seen_at_label: ユーザーの最後に見た時間の閲覧
-      edit_posts_label: 投稿を編集
-      delete_posts_label: 投稿を削除
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -181,7 +174,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: 削除
+      remove_button: => core.ref.remove
       upload_button: 画像を選択...
 
   # Translations in this namespace are used by the forum user interface.
@@ -208,6 +201,7 @@ core:
       exit_full_screen_tooltip: 全画面表示を解除
       full_screen_tooltip: 全画面表示
       minimize_tooltip: 最小化
+      preview_tooltip: プレビュー
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -239,15 +233,10 @@ core:
       delete_confirmation: "本当にこのスレッドを削除してもよろしいですか?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: ログインして返信
-      rename_button: タイトル変更
+      rename_button: => core.ref.rename
       rename_text: "このスレッドの新しいタイトルを入力してください:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
-
-      # These translations are used by the rename discussion modal.
-      rename_discussion:
-        title: 新しいタイトルを入力してください。
-        submit_button: 変更
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -259,13 +248,18 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: アクティブユーザー
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: グループ
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: 新しいパスワードを設定
       submit_button: => core.ref.save_changes
       title: ユーザーを編集
       username_label: => core.ref.username
-      groups_heading: グループ
-      username_heading: ユーザー名
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -280,6 +274,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: 管理
+      back_to_index_tooltip: スレッドリストに戻る
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: プロフィール
@@ -351,11 +346,16 @@ core:
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 後"
 
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      submit_button: => core.ref.rename
+      title: タイトル変更
+
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'すべてのスレッドについて "{query}" を検索'
       discussions_heading: => core.ref.discussions
-      users_heading: ユーザー
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -372,8 +372,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "すでにアカウントをお持ちですか？ <a>ログイン</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -383,18 +383,17 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: 削除
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: アップロード
       avatar_upload_tooltip: アバターをアップロード
-      bio_placeholder: 自己紹介をしましょう
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion} にて"
       joined_date_text: "{ago} に参加"
       online_text: オンライン
-      posts_load_more_button: => core.ref.load_more
-      posts_link: 投稿
-      settings_link: => core.ref.settings
       posts_empty_text: まだ投稿されていません。
+      posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
+      settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
@@ -416,13 +415,9 @@ core:
     badge:
       hidden_tooltip: 非表示
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[削除済み]"
-
     # These translations are displayed as error messages.
     error:
-      generic_message: "エラーが発生しました。ページを再読み込みし、もう一度お試しください。"
+      generic_message: "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。"
       not_found_message: リクエストされたリソースが見つかりませんでした。
       permission_denied_message: 実行する権限がありません。
       rate_limit_exceeded_message: 実行する間隔が早すぎます。時間が経ってからお試しください。
@@ -438,6 +433,10 @@ core:
       three_text: "{first} や {second}、 {third}"
       two_text: "{first} や {second}"
 
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[削除済み]"
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -450,18 +449,33 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: 前のページ
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: このページにアクセスする権限がありません。
+      404_message: リクエストしたページが見つかりませんでした。
+      404_return_link: "{forum}に戻る"
+      500_message: このページの読み込み中にエラーが発生しました。
+      503_message: "{forum}は現在メンテナンス中です。"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "{forum}からログアウトしてもよろしいですか?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: パスワードリセット
+    reset_password:
+      confirm_password_label: 新しいパスワード(確認)
+      new_password_label: 新しいパスワード
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -519,8 +533,13 @@ core:
     all_discussions: すべてのスレッド
     change_email: メールアドレスの変更
     change_password: パスワードの変更
+    color: カラー                                 # Referenced by flarum-tags.yml
     confirm_password: パスワードの確認
     confirmation_email_sent: "{email} にアカウント確認メールを送信しました。 メールが届かない場合は、迷惑メールボックスをご確認ください。"
+    custom_footer_text: ページの一番下に表示するHTMLを追加します。
+    custom_footer_title: カスタムフッターを編集
+    custom_header_text: "Flarumのヘッダーの上、つまりページの一番上に表示するHTMLを追加します。"
+    custom_header_title: カスタムヘッダーを編集
     delete: 削除
     delete_forever: 完全削除
     discussions: スレッド
@@ -534,6 +553,10 @@ core:
     notifications: 通知
     okay: OK                                     # Referenced by flarum-tags.yml
     password: パスワード
+    posts: 投稿                                 # Referenced by flarum-statistics.yml
+    previous_page: 前のページ
+    remove: 削除
+    rename: リネーム
     reply: 返信                                 # Referenced by flarum-mentions.yml
     reset_your_password: パスワードリセット
     restore: 復元
@@ -543,6 +566,7 @@ core:
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 新規スレッド
     username: ユーザー名
+    users: ユーザー        
     write_a_reply: 返信する...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
