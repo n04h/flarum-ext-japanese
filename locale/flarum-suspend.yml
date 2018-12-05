@@ -13,6 +13,10 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} があなたのアカウントを {timeReadable} の間停止しました"
+      user_unsuspended_text: "{username} があなたのアカウント停止を解除しました"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:

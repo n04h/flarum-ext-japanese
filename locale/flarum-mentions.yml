@@ -9,6 +9,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: 投稿もしくはユーザーに返信する
       reply_to_post_text: "{number}番目に返信"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
