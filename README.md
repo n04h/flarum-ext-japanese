@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://packagist.org/packages/n04h/flarum-ext-japanese"><img src="https://poser.pugx.org/n04h/flarum-ext-japanese/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/n04h/flarum-ext-japanese"><img src="https://poser.pugx.org/n04h/flarum-ext-japanese/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/n04h/flarum-ext-japanese"><img src="https://poser.pugx.org/n04h/flarum-ext-japanese/license.svg" alt="License"></a>
+</p>
+
 # Japanese Language Pack for Flarum (beta8)
 
 Japanese Language pack extension for [Flarum](http://flarum.org).(v0.1.0-beta8)
